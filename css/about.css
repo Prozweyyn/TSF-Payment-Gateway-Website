@@ -1,0 +1,80 @@
+
+.about-section{
+    background-color: rgb(238, 244, 248);
+    height: 100vh;
+    height: auto;
+    display: flex;
+    font-size: 17px;
+}
+.about-box{
+    border: 1.5px solid #fff;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 35px auto;
+    height: auto;  
+    width: 55%;
+    
+    
+}
+.about-logo{
+    border: 1.5px solid #fe695d;
+    display: flex;
+    width: 18%;
+    height: 122px;
+    border-radius: 170px;
+    margin: 25px auto;
+    padding: auto;
+    background-color: azure;
+    padding: 15px;
+}
+.about-header h1{
+
+    color: #2814df;
+}
+.about-logo-img{
+    height: 100px;
+    margin: auto;
+}
+.about-header{
+    text-align: center;
+    
+}
+.about-content{
+    text-align: justify;
+    max-width: 80%;
+    margin: 30px auto;
+    
+    line-height: 1.5;
+}
+.about-content p{
+    margin-bottom: 20px;
+}
+.about-content li{
+    color: #020a14;
+    margin-bottom: 10px;
+}
+.about-content h2{
+    color: #3232f1;
+    margin-bottom: 5px; 
+}
+.social-links{
+    margin: 8px 0;
+}
+.icon-box{
+    display: flex;
+    justify-content: flex-end;
+}
+.icons{
+    margin: 12px;
+    padding: 3px;
+}
+.icons i{
+    color: #333;
+    width: 20px;
+    color: #686767;
+}
+.icons i:hover{
+    transition: 0.3s;
+    color: #000;
+}
